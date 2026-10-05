@@ -6,9 +6,12 @@ public class moveSphereWithKeys : MonoBehaviour
 
     void Update()
     {
-        float horizontalInput = Input.GetAxis("Horizontal2");
-        float verticalInput = Input.GetAxis("Vertical2");
+        float horizontalInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxis("Vertical");
         Vector3 movement = new Vector3(horizontalInput, verticalInput, 0);
-        transform.Translate(movement * speed * Time.deltaTime);
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D) ||
+          Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S)) {
+            transform.Translate(movement * speed * Time.deltaTime);
+        }
     }
 }
