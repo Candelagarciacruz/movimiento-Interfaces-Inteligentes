@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class velocityCube : MonoBehaviour
 {
-    public float velocity = 4f;
+    public float velocity = 5f;
 
     void Update()
     {
