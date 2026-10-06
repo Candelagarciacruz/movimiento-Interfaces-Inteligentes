@@ -93,4 +93,6 @@ Además, la esfera se puede desplazar mediante las teclas `W`, `A`, `S` y `D`, p
 Se ha utilizado el eje `Horizontal` para controlar la rotación del cubo sobre el eje Y y `transform.forward` para obtener su dirección hacia delante, correspondiente a su eje Z positivo.
 De esta forma, el cubo avanza continuamente en la dirección hacia la que está orientado, utilizando `Debug.DrawRay()` para visualizar dicha dirección durante la ejecución:
 
+<img width="1080" height="584" alt="Ej13" src="https://github.com/user-attachments/assets/56eb932f-3a37-4938-9bbc-f8e3942d7a1d" />
+
 *Candela García Cruz*
